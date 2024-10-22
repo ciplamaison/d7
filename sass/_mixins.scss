@@ -1,0 +1,16 @@
+@mixin boton() {
+	background-color: $primary-color;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+}
+
+@mixin rrss () {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,55 @@
+.containerl2h{
+    height: 150vh;
+    width: 100%;
+    background-image: url(../images/laboratorio\ fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 15px;
+  }
+  
+  .textol2h{
+    color: white;
+    width: auto;
+    text-align: justify;
+  
+  }
+  
+  .textol2h h3{
+    text-align: left;
+  }
+  
+  .presentacionl2h h1{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase ;
+    color: yellow;
+  }
+  
+  .presentacionl2h h2{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase ;
+    color: yellow;
+  }
+  .contenedorLineas{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    width: 100%;
+  }
+  
+  .lidlab{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .linea1, .linea2, .linea3, .linea4, .lidlab {
+    width: 90%;
+  }
+  
+  .linea1 h3, .linea2 h3, .linea3 h3, .linea4 h3, .lidlab h3{
+    color: yellowgreen;
+  }
+
+  .contenedorLineas p{
+    backdrop-filter: blur(20px);
+  }

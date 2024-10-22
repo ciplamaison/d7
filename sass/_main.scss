@@ -1,0 +1,56 @@
+body {
+    background-color: $primary-color;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white;
+  }
+  
+  .tituloPrincipal {
+    font-family: $font;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .slide img{
+   height: 60vh;
+  }
+  
+  .tituloSecundario {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fotosGral{
+    display: flex;
+    justify-content: space-around;
+  }
+  .resena1{
+    height: 50vh;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+
+  }
+  .resena2{
+    height: 50vh;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .resena3{
+    height: 50vh;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  .resena4{
+    height: 50vh;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  

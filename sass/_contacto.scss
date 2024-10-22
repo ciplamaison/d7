@@ -1,0 +1,60 @@
+.contact_form{
+    margin-left: auto;
+    margin-top: auto;
+    padding: 1.5em;
+    color:white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formContacto{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color:rgb(207, 204, 17)
+  }
+  
+  .tituloForm1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(207, 204, 17) ;
+  
+  }
+  
+  .cajaFormulario{
+    box-shadow: 0 0 20px 0 rgba(245, 245, 245, 0.9);
+    padding: 20px;
+    max-width: 1000px;
+  }
+  
+  .contact_form form{
+    margin: 0;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+  
+  }
+  
+  .contact_form form .block{
+    grid-column: 1 / 3;
+  }
+  .contact_form form #mensaje {
+    grid-column: 1 / 3;
+  }
+  .contact_form form .aviso{
+    grid-column: 1 / 3;
+  }
+  .contact_form form #enviar{
+    grid-column: 1 / 3;
+  }
+  
+  .contact_form form button,
+  .contact_form form input,
+  .contact_form form textarea {
+    width: 100%;
+    padding: 0.1em;
+  }
+  #mensaje{
+    padding: 1em
+  }
+  
